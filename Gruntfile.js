@@ -54,6 +54,7 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('publish', [
+        'build',
         'gh-pages'
     ]);
 
