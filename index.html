@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>GitBook</title>
         <link rel="icon" href="favicon.ico">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="static/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
