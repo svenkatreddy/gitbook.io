@@ -5,7 +5,7 @@
         <title>GitBook</title>
         <link rel="icon" href="favicon.ico">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="static/style.css">
+        <link rel="stylesheet" href="assets/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
         <meta name="keywords" content="gitbook,git,book,programming" >
@@ -22,35 +22,18 @@
     <body>
         <div class="wrapper">
             <div id="header">
-                <div class="inner">
+                <div class="container">
+                    <img class="logo" src="/assets/images/logo/128t.png" />
                     <h1>GitBook</h1>
-                    <p class="intro">Build beautiful programming books and exercises using GitHub/Git and Markdown.</p>
-                    <p>
-                        <a href="http://gitbookio.github.io/javascript/" class="btn btn-lg btn-success">Check out an Example</a>
-                    </p>
-                </div>
-            </div>
-            <div id="body">
-                <!-- How to use it -->
-                <section class="howto">
-                    <h2>How to Use It</h2>
-                    <hr>
-                    <div class="step">
-                        <p>Install it using:</p>
-                        <pre>$ npm install gitbook -g</pre>
-                    </div>
-                    <div class="step">
-                        <p>And convert your repository using:</p>
-                        <pre>$ gitbook build or $ gitbook serve</pre>
-                    </div>
                     <!-- Share -->
-                    <div class="share">
+                    <div class="share hidden-xs">
                         <ul class="social-buttons">
                             <li>
                                 <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=watch&amp;count=true&amp;size=large" width="165" height="30" title="Star on GitHub"></iframe>
                             </li>
-                            <li>
-                                <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=fork&amp;count=true&amp;size=large" width="162" height="30" title="Fork on GitHub"></iframe>
+                            <li class="tweet-btn">
+                                <a href="https://twitter.com/GitBookIO" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @GitBookIO</a>
+                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                             </li>
                             <li class="tweet-btn">
                                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gitbook.io" data-text="GitBook: Build beautiful programming books and exercises using GitHub/Git and Markdown" data-related="SamyPesse" data-size="large">Tweet</a>
@@ -58,64 +41,192 @@
                             </li>
                         </ul>
                     </div>
-                </section>
-
+                </div>
+            </div>
+            <div id="intro">
+                <div class="container">
+                    <p class="intro">Build beautiful interactive books using GitHub/Git and Markdown.</p>
+                </div>
+            </div>
+            <div id="body">
                 <!-- Features -->
                 <section class="features">
+                    <div class="menu">
+                        <div class="container">
+                            <div class="actions">
+                                <h4>How to Use It</h4>
+                            </div>
+                            <ul>
+                                <li><a href="https://github.com/GitbookIO/gitbook">Documentation</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
                     <div class="container">
                         <div class="row">
-                            <div class="feature col-md-4">
-                                <div class="icon">
-                                    <i class="fa fa-files-o"></i>
-                                </div>
+                            <div class="feature col-lg-4 col-md-6">
                                 <h3>Markdown</h3>
                                 <p>Write your books and courses using <b>Markdown</b>, GitBook will convert it to a complete static website.</p>
-                                <p><a href="https://help.github.com/articles/markdown-basics">Learn more about it</a></p>
                             </div>
-                            <div class="feature col-md-4">
-                                <div class="icon">
-                                    <i class="fa fa-github-alt"></i>
-                                </div>
+                            <div class="feature col-lg-4 col-md-6">
                                 <h3>GitHub</h3>
                                 <p>Write your book using the <b>Git/GitHub</b> workflow which makes it easy to contribute and collaborate.</p>
-                                <p><a href="https://github.com/GitbookIO/javascript">Book Example</a></p>
                             </div>
-                            <div class="feature col-md-4">
-                                <div class="icon">
-                                    <i class="fa fa-play"></i>
-                                </div>
+                            <div class="feature col-lg-4 col-md-6">
                                 <h3>Interactive</h3>
-                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more).</p>
-                                <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
+                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more) or <b>Quizzes</b>.</p>
+                            </div>
+                            <div class="feature col-lg-4 col-md-6">
+                                <h3>PDF, eBook</h3>
+                                <p>GitBook can generate multiple output formats: website, pdf, ebook.</p>
+                            </div>
+                            <div class="feature col-lg-4 col-md-6">
+                                <h3>Command Line</h3>
+                                <p>Install GitBook using <code>npm install gitbook -g</code> and test your website using <code>gitbook serve</code>.</p>
+                            </div>
+                            <div class="feature col-lg-4 col-md-6">
+                                <h3>Editor</h3>
+                                <p>A beautiful GitBook editor is available on Windows, Mac and Linux providing an easy writing experience.</p>
                             </div>
                         </div>
                     </div>
                 </section>
-
                 <!-- Featured -->
                 <section class="featured">
-                    <h2>Featured Books</h2>
-                    <hr>
+                    <div class="menu">
+                        <div class="container">
+                            <div class="actions">
+                                <h4>Featured</h4>
+                            </div>
+                            <ul>
+                                <li><a href="https://github.com/GitbookIO/gitbook.io/blob/master/featured.json">Suggest a book</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="container">
                         <div class="row">
                             
-                            <div class="col-md-6">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="book">
                                     <div class="content">
                                         <h3>Learn JavaScript</h3>
-                                        <p>This interactive book will teach you the basics of programming and JavaScript.</p>
+                                        <p class="description">This interactive book will teach you the basics of programming and JavaScript.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/SamyPesse" title="Samy Pessé"><img src="http://www.gravatar.com/avatar/59f4e328391df5c3430aaeddd3be24dd.jpg" /></a>
+                                        
+                                        <a href="https://github.com/AaronO" title="Aaron O&#39;Mullan"><img src="http://www.gravatar.com/avatar/50dc95ccd2eda21661b417c819630a5d.jpg" /></a>
+                                        
+                                        <a href="https://github.com/hasselg" title="Greg Hasseler"><img src="http://www.gravatar.com/avatar/8d439b42c2edaab0389dd8bbdc4f07f7.jpg" /></a>
+                                        
+                                        </p>
                                     </div>
                                     <a class="read" href="http://gitbookio.github.io/javascript/">read it</a>
                                 </div>
                             </div>
                             
-                            <div class="col-md-6">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="book">
                                     <div class="content">
                                         <h3>How to Make an Operating System</h3>
-                                        <p>Learn how to make a computer operating system from scratch in C/C++.</p>
+                                        <p class="description">Learn how to make a computer operating system from scratch in C/C++.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/SamyPesse" title="Samy Pessé"><img src="http://www.gravatar.com/avatar/59f4e328391df5c3430aaeddd3be24dd.jpg" /></a>
+                                        
+                                        </p>
                                     </div>
                                     <a class="read" href="http://samypesse.github.io/How-to-Make-a-Computer-Operating-System/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Learn Markdown</h3>
+                                        <p class="description">This interactive book will teach you the basics of writing markdown documents.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/SamyPesse" title="Samy Pessé"><img src="http://www.gravatar.com/avatar/59f4e328391df5c3430aaeddd3be24dd.jpg" /></a>
+                                        
+                                        </p>
+                                    </div>
+                                    <a class="read" href="http://gitbookio.github.io/markdown/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Learn Git</h3>
+                                        <p class="description">The entire Pro Git book, written by Scott Chacon, generated as a GitBook.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/AaronO" title="Aaron O&#39;Mullan"><img src="http://www.gravatar.com/avatar/50dc95ccd2eda21661b417c819630a5d.jpg" /></a>
+                                        
+                                        </p>
+                                    </div>
+                                    <a class="read" href="http://gitbookio.github.io/git/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>About Haskell</h3>
+                                        <p class="description">Book for understanding functional programming with Haskell.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/denisshevchenko" title="Denis Shevchenko"><img src="http://www.gravatar.com/avatar/5a3efd11d75bf689a42ea5ad1ed8f95d.jpg" /></a>
+                                        
+                                        </p>
+                                    </div>
+                                    <a class="read" href="http://denisshevchenko.github.io/ohaskell/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Build Your Own Lisp</h3>
+                                        <p class="description">Learn C and build your own programming language in under 1000 lines of code!</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/TheThirdOne" title="Benjamin Landers"><img src="http://www.gravatar.com/avatar/f1f8206e3cf63e7bd78f59e2eb6c9e5b.jpg" /></a>
+                                        
+                                        </p>
+                                    </div>
+                                    <a class="read" href="http://gh.landersbenjamin.com/BuildYourOwnLispGitbook/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Exobook</h3>
+                                        <p class="description">A book of exercises to learn CloudStack using exoscale.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/runseb" title="Sebastien Goasguen"><img src="http://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e.jpg" /></a>
+                                        
+                                        </p>
+                                    </div>
+                                    <a class="read" href="http://codac.co/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Learn Gulp.js</h3>
+                                        <p class="description">Learn how to use the task runner gulp.js.</p>
+                                        <p class="authors"><span>written by</span>
+                                        
+                                        <a href="https://github.com/Coalman" title="Michael Coleman"><img src="http://www.gravatar.com/avatar/f2c26b0840113af06354aebab717aabe.jpg" /></a>
+                                        
+                                        </p>
+                                    </div>
+                                    <a class="read" href="http://coalman.github.io/tott-gulpjs/book/">read it</a>
                                 </div>
                             </div>
                             
@@ -124,11 +235,14 @@
                 </section>
             </div>
             <div id="footer">
-                <a href="https://github.com/GitbookIO">It’s Open Source</a>
-                  —  
-                <a href="https://www.codebox.io/about">Made with <i class="fa fa-heart"></i> by the Codebox Team</a>
-                  —  
-                <a href="https://github.com/GitbookIO/gitbook#gitbook">About GitBook</a>
+                <div class="container">
+                    <a href="https://github.com/GitbookIO/gitbook/blob/master/AUTHORS.md">Made with <i class="fa fa-heart"></i> by a dedicated Team</a>
+                    <a href="https://github.com/GitbookIO">It’s Open Source</a>
+                    <a href="https://github.com/GitbookIO/gitbook#gitbook">About GitBook</a>
+                    
+                    <a class="pull-right" href="https://github.com/GitbookIO"><i class="fa fa-github-alt"></i> GitHub</a>
+                    <a class="pull-right" href="https://twitter.com/GitBookIO"><i class="fa fa-twitter"></i> Twitter</a>
+                </div>
             </div>
         </div>
     </body>
