@@ -10,5 +10,23 @@
         "title": "How to Make an Operating System",
         "description": "Learn how to make a computer operating system from scratch in C/C++.",
         "url": "http://samypesse.github.io/How-to-Make-a-Computer-Operating-System/"
+    },
+    {
+        "id": "GitbookIO/markdown",
+        "title": "Learn Markdown",
+        "description": "This interactive book will teach you the basics of writing markdown documents.",
+        "url": "http://gitbookio.github.io/markdown/"
+    },
+    {
+        "id": "GitbookIO/git",
+        "title": "Learn Git",
+        "description": "The entire Pro Git book, written by Scott Chacon, generated as a GitBook.",
+        "url": "http://gitbookio.github.io/git/"
+    },
+    {
+        "id": "TheThirdOne/BuildYourOwnLispGitbook",
+        "title": "Build Your Own Lisp",
+        "description": "Learn C and build your own programming language in under 1000 lines of code!",
+        "url": "http://gh.landersbenjamin.com/BuildYourOwnLispGitbook/"
     }
 ]

@@ -1,16 +1,53 @@
 #body {
-    padding: 20px 0px;
-    max-width: 900px;
-    margin: 0px auto;
+    .menu {
+        border-bottom: 1px solid #eee;
 
-    h2 {
-        text-align: center;
-    }
+        .inner {
+            .clearfix();
+            max-width: @inner-width;
+            margin: 0 auto;
+            padding-top: 14px;
 
-    hr {
-        width: 60px;
-        border-color: #ddd;
-        box-shadow: 0px 1px #fff;
+            .actions {
+                float: left;
+            }
+
+            ul {
+                list-style: none;
+                float: right;
+                margin: 0px;
+                padding: 0px;
+
+                li {
+                    display: inline-block;
+                    
+                    a {
+                        display: inline-block;
+                        padding: 0 10px 14px;
+                        margin: 0;
+                        border-bottom: 3px solid transparent;
+                        color: #666;
+                        font-size: 14px;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                    &.active {
+                        a, a:hover {
+                            color: #333;
+                            font-weight: bold;
+                            border-bottom-color: @brand-warning;
+                            padding: 0 0 14px;
+                            margin: 0 10px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     section {
@@ -42,13 +79,18 @@
     }
 
     .featured {
+        .clearfix();
+        max-width: @inner-width;
+        margin: 20px auto;
+
         .book {
-            background: #fff;
+            background: #f8f8f8;
             text-align: left;
             margin: 15px 0px;
             border-radius: 2px;
             padding: 10px;
             text-align: center;
+            border: 1px solid #eee;
             
 
             .content {
@@ -84,27 +126,5 @@
                 }
             }
         }   
-    }
-
-    .share {
-        text-align: center;
-
-        ul.social-buttons {
-            display: inline-block;
-            margin-bottom: 0;
-            padding-left: 0;
-            list-style: none;
-
-            li {
-                display: inline-block;
-                line-height: 1;
-                padding: 5px 8px;
-
-                iframe {
-                    border: 0;
-                    overflow: hidden;
-                }
-            }
-        }
     }
 }

@@ -6,6 +6,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-swig');
     grunt.loadNpmTasks('grunt-gh-pages');
+    grunt.loadNpmTasks('grunt-http-server');
 
     // Init GRUNT configuraton
     grunt.initConfig({
@@ -44,6 +45,22 @@ module.exports = function (grunt) {
                 base: 'www'
             },
             src: ['**']
+        },
+        'http-server': {
+            'dev': {
+                // the server root directory
+                root: 'www',
+
+                port: 4000,
+                host: "127.0.0.1",
+
+                showDir : true,
+                autoIndex: true,
+                defaultExt: "html",
+
+                //wait or not for the process to finish
+                runInBackground: false
+            }
         }
     });
 
@@ -56,6 +73,11 @@ module.exports = function (grunt) {
     grunt.registerTask('publish', [
         'build',
         'gh-pages'
+    ]);
+
+    grunt.registerTask('test', [
+        'build',
+        'http-server'
     ]);
 
     grunt.registerTask('default', [

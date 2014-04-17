@@ -23,26 +23,8 @@
         <div class="wrapper">
             <div id="header">
                 <div class="inner">
+                    <img class="logo" src="/static/images/logo/128t.png" />
                     <h1>GitBook</h1>
-                    <p class="intro">Build beautiful programming books and exercises using GitHub/Git and Markdown.</p>
-                    <p>
-                        <a href="http://gitbookio.github.io/javascript/" class="btn btn-lg btn-success">Check out an Example</a>
-                    </p>
-                </div>
-            </div>
-            <div id="body">
-                <!-- How to use it -->
-                <section class="howto">
-                    <h2>How to Use It</h2>
-                    <hr>
-                    <div class="step">
-                        <p>Install it using:</p>
-                        <pre>$ npm install gitbook -g</pre>
-                    </div>
-                    <div class="step">
-                        <p>And convert your repository using:</p>
-                        <pre>$ gitbook build or $ gitbook serve</pre>
-                    </div>
                     <!-- Share -->
                     <div class="share">
                         <ul class="social-buttons">
@@ -58,48 +40,34 @@
                             </li>
                         </ul>
                     </div>
-                </section>
+                </div>
+            </div>
+            <div id="intro">
+                <div class="inner">
+                    <p class="intro">Build beautiful interactive books using GitHub/Git and Markdown.</p>
+                </div>
+            </div>
+            <div id="body">
 
-                <!-- Features -->
-                <section class="features">
-                    <div class="container">
-                        <div class="row">
-                            <div class="feature col-md-4">
-                                <div class="icon">
-                                    <i class="fa fa-files-o"></i>
-                                </div>
-                                <h3>Markdown</h3>
-                                <p>Write your books and courses using <b>Markdown</b>, GitBook will convert it to a complete static website.</p>
-                                <p><a href="https://help.github.com/articles/markdown-basics">Learn more about it</a></p>
-                            </div>
-                            <div class="feature col-md-4">
-                                <div class="icon">
-                                    <i class="fa fa-github-alt"></i>
-                                </div>
-                                <h3>GitHub</h3>
-                                <p>Write your book using the <b>Git/GitHub</b> workflow which makes it easy to contribute and collaborate.</p>
-                                <p><a href="https://github.com/GitbookIO/javascript">Book Example</a></p>
-                            </div>
-                            <div class="feature col-md-4">
-                                <div class="icon">
-                                    <i class="fa fa-play"></i>
-                                </div>
-                                <h3>Interactive</h3>
-                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more).</p>
-                                <p><a href="https://github.com/GitbookIO/gitbook">Learn more about it</a></p>
-                            </div>
+                <div class="menu">
+                    <div class="inner">
+                        <div class="actions">
+                            <a href="https://github.com/GitbookIO/gitbook.io/blob/master/featured.json">Suggest a book</a>
                         </div>
+                        <ul>
+                            <li class="active"><a href="#all">All</a></li>
+                            <li><a href="#programming">Programming</a></li>
+                            <li><a href="#math">Math</a></li>
+                        </ul>
                     </div>
-                </section>
+                </div>
 
                 <!-- Featured -->
                 <section class="featured">
-                    <h2>Featured Books</h2>
-                    <hr>
                     <div class="container">
                         <div class="row">
                             
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="book">
                                     <div class="content">
                                         <h3>Learn JavaScript</h3>
@@ -109,7 +77,7 @@
                                 </div>
                             </div>
                             
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="book">
                                     <div class="content">
                                         <h3>How to Make an Operating System</h3>
@@ -119,16 +87,46 @@
                                 </div>
                             </div>
                             
+                            <div class="col-md-4">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Learn Markdown</h3>
+                                        <p>This interactive book will teach you the basics of writing markdown documents.</p>
+                                    </div>
+                                    <a class="read" href="http://gitbookio.github.io/markdown/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Learn Git</h3>
+                                        <p>The entire Pro Git book, written by Scott Chacon, generated as a GitBook.</p>
+                                    </div>
+                                    <a class="read" href="http://gitbookio.github.io/git/">read it</a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="book">
+                                    <div class="content">
+                                        <h3>Build Your Own Lisp</h3>
+                                        <p>Learn C and build your own programming language in under 1000 lines of code!</p>
+                                    </div>
+                                    <a class="read" href="http://gh.landersbenjamin.com/BuildYourOwnLispGitbook/">read it</a>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </section>
             </div>
             <div id="footer">
-                <a href="https://github.com/GitbookIO">It’s Open Source</a>
-                  —  
-                <a href="https://www.codebox.io/about">Made with <i class="fa fa-heart"></i> by the Codebox Team</a>
-                  —  
-                <a href="https://github.com/GitbookIO/gitbook#gitbook">About GitBook</a>
+                <div class="inner">
+                    <a href="https://github.com/GitbookIO">It’s Open Source</a>
+                    <a href="https://github.com/GitbookIO/gitbook#gitbook">About GitBook</a>
+                    <a class="pull-right" href="https://github.com/GitbookIO/gitbook/blob/master/AUTHORS.md">Made with <i class="fa fa-heart"></i> by a dedicated Team</a>
+                </div>
             </div>
         </div>
     </body>

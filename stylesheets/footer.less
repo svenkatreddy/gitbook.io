@@ -2,19 +2,27 @@
     position:absolute;
     bottom:0;
     width:100%;
-    height:60px;
-
-    text-align: center;
+    height:70px;
 
     padding: 10px 0px;
     color: #888;
 
-    a {
-        margin: 0px 12px;
-        color: inherit;
+    .inner {
+        .clearfix();
+        max-width: @inner-width;
+        margin: 0 auto;
 
-        i {
-            color: #e74c3c;
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+        font-size: 13px;
+
+        a {
+            margin: 0px 12px;
+            color: inherit;
+
+            i {
+                color: #e74c3c;
+            }
         }
     }
 }
