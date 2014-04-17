@@ -101,5 +101,19 @@
                 "url": "https://github.com/runseb"
             }
         ]
+    },
+    {
+        "id": "runseb/runseb.github.io",
+        "title": "Learn Gulp.js",
+        "description": "Learn how to use the task runner gulp.js.",
+        "url": "http://coalman.github.io/tott-gulpjs/book/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Michael Coleman",
+                "email": "teisei.coleman@gmail.com",
+                "url": "https://github.com/Coalman"
+            }
+        ]
     }
 ]
