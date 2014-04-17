@@ -3,30 +3,89 @@
         "id": "GitbookIO/javascript",
         "title": "Learn JavaScript",
         "description": "This interactive book will teach you the basics of programming and JavaScript.",
-        "url": "http://gitbookio.github.io/javascript/"
+        "url": "http://gitbookio.github.io/javascript/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Samy Pessé",
+                "email": "samypesse@gmail.com",
+                "url": "https://github.com/SamyPesse"
+            },
+            {
+                "name": "Aaron O'Mullan",
+                "email": "aaron.omullan@gmail.com",
+                "url": "https://github.com/AaronO"
+            }
+        ]
     },
     {
         "id": "SamyPesse/How-to-Make-a-Computer-Operating-System",
         "title": "How to Make an Operating System",
         "description": "Learn how to make a computer operating system from scratch in C/C++.",
-        "url": "http://samypesse.github.io/How-to-Make-a-Computer-Operating-System/"
+        "url": "http://samypesse.github.io/How-to-Make-a-Computer-Operating-System/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Samy Pessé",
+                "email": "samypesse@gmail.com",
+                "url": "https://github.com/SamyPesse"
+            }
+        ]
     },
     {
         "id": "GitbookIO/markdown",
         "title": "Learn Markdown",
         "description": "This interactive book will teach you the basics of writing markdown documents.",
-        "url": "http://gitbookio.github.io/markdown/"
+        "url": "http://gitbookio.github.io/markdown/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Samy Pessé",
+                "email": "samypesse@gmail.com",
+                "url": "https://github.com/SamyPesse"
+            }
+        ]
     },
     {
         "id": "GitbookIO/git",
         "title": "Learn Git",
         "description": "The entire Pro Git book, written by Scott Chacon, generated as a GitBook.",
-        "url": "http://gitbookio.github.io/git/"
+        "url": "http://gitbookio.github.io/git/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Aaron O'Mullan",
+                "email": "aaron.omullan@gmail.com",
+                "url": "https://github.com/AaronO"
+            }
+        ]
+    },
+    {
+        "id": "denisshevchenko/ohaskell",
+        "title": "About Haskell",
+        "description": "For those who know nothing about functional programming, but wants to finally understand.",
+        "url": "http://denisshevchenko.github.io/ohaskell/",
+        "langs": ["ru", "en"],
+        "authors": [
+            {
+                "name": "Denis Shevchenko",
+                "email": "me@dshevchenko.biz",
+                "url": "https://github.com/denisshevchenko"
+            }
+        ]
     },
     {
         "id": "TheThirdOne/BuildYourOwnLispGitbook",
         "title": "Build Your Own Lisp",
         "description": "Learn C and build your own programming language in under 1000 lines of code!",
-        "url": "http://gh.landersbenjamin.com/BuildYourOwnLispGitbook/"
+        "url": "http://gh.landersbenjamin.com/BuildYourOwnLispGitbook/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Benjamin Landers",
+                "email": "benjaminrlanders@gmail.com",
+                "url": "https://github.com/TheThirdOne"
+            }
+        ]
     }
 ]

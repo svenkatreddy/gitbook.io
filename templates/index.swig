@@ -72,6 +72,11 @@
                                     <div class="content">
                                         <h3>{{ book.title }}</h3>
                                         <p>{{ book.description }}</p>
+                                        <p class="authors"><span>written by</span>
+                                        {% for author in book.authors %}
+                                        <a href="{{ author.url }}" title="{{ author.name }}"><img src="{{ author.avatar }}" /></a>
+                                        {% endfor %}
+                                        </p>
                                     </div>
                                     <a class="read" href="{{ book.url }}">read it</a>
                                 </div>
