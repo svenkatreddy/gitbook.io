@@ -48,22 +48,61 @@
                 </div>
             </div>
             <div id="body">
-
-                <div class="menu">
-                    <div class="inner">
-                        <div class="actions">
-                            <a href="https://github.com/GitbookIO/gitbook.io/blob/master/featured.json">Suggest a book</a>
+                <!-- Features -->
+                <section class="features">
+                    <div class="menu">
+                        <div class="inner">
+                            <div class="actions">
+                                <h4>How to Use It</h4>
+                            </div>
+                            <ul>
+                                <li><a href="https://github.com/GitbookIO/editor">Editor for Mac, Windows and Linux</a></li>
+                            </ul>
                         </div>
-                        <ul>
-                            <li class="active"><a href="#all">All</a></li>
-                            <li><a href="#programming">Programming</a></li>
-                            <li><a href="#math">Math</a></li>
-                        </ul>
                     </div>
-                </div>
-
+                
+                    <div class="container">
+                        <div class="row">
+                            <div class="feature col-md-4">
+                                <h3>Markdown</h3>
+                                <p>Write your books and courses using <b>Markdown</b>, GitBook will convert it to a complete static website.</p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <h3>GitHub</h3>
+                                <p>Write your book using the <b>Git/GitHub</b> workflow which makes it easy to contribute and collaborate.</p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <h3>Interactive</h3>
+                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more) or <b>Quiz</b>.</p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <h3>PDF, eBook</h3>
+                                <p>GitBook lets you generate your book in multiple formats: website, pdf, ebook.</p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <h3>Command Line</h3>
+                                <p>Install GitBook using <code>npm install gitbook -g</code> and test your website using <code>gitbook serve</code>.</p>
+                            </div>
+                            <div class="feature col-md-4">
+                                <h3>Editor</h3>
+                                <p>An editor is also available for Windows, Mac and Linux to make it really easy to write books.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <!-- Featured -->
                 <section class="featured">
+                    <div class="menu">
+                        <div class="inner">
+                            <div class="actions">
+                                <h4>Featured</h4>
+                            </div>
+                            <ul>
+                                <li class="active"><a href="#all">All</a></li>
+                                <li><a href="https://github.com/GitbookIO/gitbook.io/blob/master/featured.json">Suggest a book</a></li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="container">
                         <div class="row">
                             {% for book in featured %}

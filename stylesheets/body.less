@@ -1,6 +1,6 @@
 #body {
     .menu {
-        border-bottom: 1px solid #eee;
+        border-top: 1px solid #eee;
 
         .inner {
             .clearfix();
@@ -10,6 +10,10 @@
 
             .actions {
                 float: left;
+
+                h4 {
+                    margin: 0px;
+                }
             }
 
             ul {
@@ -52,7 +56,12 @@
 
     section {
         padding: 0px 10px;
-        margin-bottom: 100px;
+        margin-bottom: 40px;
+
+        .container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     }
 
     .howto {
@@ -70,19 +79,11 @@
 
     .features {
         .feature {
-            text-align: center;
-
-            .icon {
-                font-size: 48px;
-            }
+            
         }
     }
 
     .featured {
-        .clearfix();
-        max-width: @inner-width;
-        margin: 20px auto;
-
         .book {
             background: #f8f8f8;
             text-align: left;
