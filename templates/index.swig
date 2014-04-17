@@ -82,7 +82,7 @@
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Command Line</h3>
-                                <p>Install GitBook using <code>npm install gitbook -g</code> and test your website using <code>gitbook serve</code>.</p>
+                                <p>Install GitBook using <code>npm install gitbook -g</code> and test your website using <code>gitbook serve</code>. <a href="https://github.com/GitbookIO/gitbook">Learn more</a></p>
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Editor</h3>
