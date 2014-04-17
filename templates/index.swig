@@ -57,7 +57,7 @@
                                 <h4>How to Use It</h4>
                             </div>
                             <ul>
-                                <li><a href="https://github.com/GitbookIO/editor">Editor for Mac, Windows and Linux</a></li>
+                                <li><a href="https://github.com/GitbookIO/gitbook">Documentation</a></li>
                             </ul>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Command Line</h3>
-                                <p>Install GitBook using <code>npm install gitbook -g</code> and test your website using <code>gitbook serve</code>. <a href="https://github.com/GitbookIO/gitbook">Learn more</a></p>
+                                <p>Install GitBook using <code>npm install gitbook -g</code> and test your website using <code>gitbook serve</code>.</p>
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Editor</h3>
@@ -99,7 +99,6 @@
                                 <h4>Featured</h4>
                             </div>
                             <ul>
-                                <li class="active"><a href="#all">All</a></li>
                                 <li><a href="https://github.com/GitbookIO/gitbook.io/blob/master/featured.json">Suggest a book</a></li>
                             </ul>
                         </div>
