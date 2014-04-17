@@ -5,7 +5,7 @@
         <title>GitBook</title>
         <link rel="icon" href="favicon.ico">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="static/style.css">
+        <link rel="stylesheet" href="assets/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
         <meta name="keywords" content="gitbook,git,book,programming" >
@@ -23,7 +23,7 @@
         <div class="wrapper">
             <div id="header">
                 <div class="container">
-                    <img class="logo" src="/static/images/logo/128t.png" />
+                    <img class="logo" src="/assets/images/logo/128t.png" />
                     <h1>GitBook</h1>
                     <!-- Share -->
                     <div class="share">

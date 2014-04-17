@@ -22,6 +22,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-swig');
     grunt.loadNpmTasks('grunt-gh-pages');
     grunt.loadNpmTasks('grunt-http-server');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     // Init GRUNT configuraton
     grunt.initConfig({
@@ -34,7 +36,7 @@ module.exports = function (grunt) {
                     optimization: 2
                 },
                 files: {
-                    "www/static/style.css": "stylesheets/main.less"
+                    "www/assets/style.css": "stylesheets/main.less"
                 }
             }
         },
@@ -76,18 +78,34 @@ module.exports = function (grunt) {
                 //wait or not for the process to finish
                 runInBackground: false
             }
+        },
+        'clean': {
+            www: ["www"]
+        },
+        'copy': {
+            www: {
+                src: "assets/**",
+                dest: "www/"
+            },
+            cname: {
+                src: "CNAME",
+                dest: "www/CNAME"
+            }
         }
     });
-
-    // Build
+    
     grunt.registerTask('build', [
+        'clean',
+        'copy:www',
+        'copy:cname',
         'less',
         'swig'
     ]);
 
     grunt.registerTask('publish', [
         'build',
-        'gh-pages'
+        'gh-pages',
+        'clean'
     ]);
 
     grunt.registerTask('test', [
