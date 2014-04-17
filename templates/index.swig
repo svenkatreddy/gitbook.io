@@ -6,6 +6,7 @@
         <link rel="icon" href="favicon.ico">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/style.css">
+        <meta name="google-site-verification" content="mAI4k7A4RaCrAbrsgv7m8w6VPx0irEHUO3bHYEPPwdI" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Build beautiful interactive books using GitHub/Git and Markdown, with multiple output formats (website, pdf, ebook).">
         <meta name="keywords" content="gitbook,git,book,programming" >
