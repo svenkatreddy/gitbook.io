@@ -128,9 +128,12 @@
             </div>
             <div id="footer">
                 <div class="container">
+                    <a href="https://github.com/GitbookIO/gitbook/blob/master/AUTHORS.md">Made with <i class="fa fa-heart"></i> by a dedicated Team</a>
                     <a href="https://github.com/GitbookIO">It’s Open Source</a>
                     <a href="https://github.com/GitbookIO/gitbook#gitbook">About GitBook</a>
-                    <a class="pull-right" href="https://github.com/GitbookIO/gitbook/blob/master/AUTHORS.md">Made with <i class="fa fa-heart"></i> by a dedicated Team</a>
+                    
+                    <a class="pull-right" href="https://github.com/GitbookIO"><i class="fa fa-github-alt"></i> GitHub</a>
+                    <a class="pull-right" href="https://twitter.com/GitBookIO"><i class="fa fa-twitter"></i> Twitter</a>
                 </div>
             </div>
         </div>
