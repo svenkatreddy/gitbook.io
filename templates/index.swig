@@ -7,7 +7,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/style.css">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Build beautiful programming books and exercises using GitHub/Git and Markdown.">
+        <meta name="description" content="Build beautiful interactive books using GitHub/Git and Markdown, with multiple output formats (website, pdf, ebook).">
         <meta name="keywords" content="gitbook,git,book,programming" >
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,7 +36,7 @@
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                             </li>
                             <li class="tweet-btn">
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gitbook.io" data-text="GitBook: Build beautiful programming books and exercises using GitHub/Git and Markdown" data-related="SamyPesse" data-size="large">Tweet</a>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.gitbook.io" data-text="GitBook: Build beautiful interactive books using GitHub/Git and Markdown" data-via="GitBookIO" data-related="GitBookIO" data-size="large">Tweet</a>
                                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                             </li>
                         </ul>
