@@ -26,7 +26,7 @@
                     <img class="logo" src="/assets/images/logo/128t.png" />
                     <h1>GitBook</h1>
                     <!-- Share -->
-                    <div class="share">
+                    <div class="share hidden-xs">
                         <ul class="social-buttons">
                             <li>
                                 <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=GitbookIO&amp;repo=gitbook&amp;type=watch&amp;count=true&amp;size=large" width="165" height="30" title="Star on GitHub"></iframe>
@@ -74,11 +74,11 @@
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Interactive</h3>
-                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more) or <b>Quiz</b>.</p>
+                                <p>Your book can contain interactive <b>JavaScript</b> exercises (Coming soon: Python, Ruby and more) or <b>Quizzes</b>.</p>
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>PDF, eBook</h3>
-                                <p>GitBook lets you generate your book in multiple formats: website, pdf, ebook.</p>
+                                <p>GitBook can generate multiple output formats: website, pdf, ebook.</p>
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Command Line</h3>
@@ -86,7 +86,7 @@
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Editor</h3>
-                                <p>An editor is also available for Windows, Mac and Linux to make it really easy to write books.</p>
+                                <p>A beautiful GitBook editor is available on Windows, Mac and Linux providing an easy writing experience.</p>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                                 <div class="book">
                                     <div class="content">
                                         <h3>{{ book.title }}</h3>
-                                        <p>{{ book.description }}</p>
+                                        <p class="description">{{ book.description }}</p>
                                         <p class="authors"><span>written by</span>
                                         {% for author in book.authors %}
                                         <a href="{{ author.url }}" title="{{ author.name }}"><img src="{{ author.avatar }}" /></a>
