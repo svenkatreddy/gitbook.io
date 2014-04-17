@@ -63,7 +63,7 @@
     {
         "id": "denisshevchenko/ohaskell",
         "title": "About Haskell",
-        "description": "For those who know nothing about functional programming, but wants to finally understand.",
+        "description": "Book for understanding functional programming with Haskell.",
         "url": "http://denisshevchenko.github.io/ohaskell/",
         "langs": ["ru", "en"],
         "authors": [
@@ -85,6 +85,20 @@
                 "name": "Benjamin Landers",
                 "email": "benjaminrlanders@gmail.com",
                 "url": "https://github.com/TheThirdOne"
+            }
+        ]
+    },
+    {
+        "id": "runseb/runseb.github.io",
+        "title": "Exobook",
+        "description": "A book of exercises to learn CloudStack using exoscale.",
+        "url": "http://codac.co/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Sebastien Goasguen",
+                "email": "",
+                "url": "https://github.com/runseb"
             }
         ]
     }
