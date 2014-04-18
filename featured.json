@@ -38,6 +38,20 @@
         ]
     },
     {
+        "id": "bebraw/survive-js",
+        "title": "Survive JavaScript",
+        "description": "Have you ever felt lost with JavaScript? If so you found the right place!",
+        "url": "http://survivejs.com/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Juho Vepsäläinen",
+                "email": "bebraw@gmail.com",
+                "url": "https://github.com/bebraw"
+            }
+        ]
+    },
+    {
         "id": "GitbookIO/markdown",
         "title": "Learn Markdown",
         "description": "This interactive book will teach you the basics of writing markdown documents.",
