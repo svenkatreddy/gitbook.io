@@ -87,7 +87,7 @@
                             </div>
                             <div class="feature col-lg-4 col-md-6">
                                 <h3>Editor</h3>
-                                <p>A beautiful GitBook editor is available on Windows, Mac and Linux providing an easy writing experience.</p>
+                                <p>A beautiful GitBook editor is available on <a href="https://github.com/GitbookIO/editor/releases">Windows, Mac and Linux</a> providing an easy writing experience.</p>
                             </div>
                         </div>
                     </div>
