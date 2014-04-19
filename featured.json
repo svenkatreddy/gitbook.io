@@ -134,5 +134,19 @@
                 "url": "https://github.com/Coalman"
             }
         ]
+    },
+    {
+        "id": "sb2nov/sb2nov.github.io",
+        "title": "Mac OS X Setup Guide",
+        "description": "Installing Development environment on Mac OS X",
+        "url": "http://sourabhbajaj.com/mac-setup/",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Sourabh Bajaj",
+                "email": "sourabh@sourabhbajaj.com",
+                "url": "https://github.com/sb2nov"
+            }
+        ]
     }
 ]
