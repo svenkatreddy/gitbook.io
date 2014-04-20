@@ -148,5 +148,19 @@
                 "url": "https://github.com/Coalman"
             }
         ]
+    },
+    {
+        "id": "jpscharf/FileMakerServerOpenDirectory",
+        "title": "FileMaker + Open Directory",
+        "description": "Learn how to deploy Open Directory for FileMaker Server external authentication.",
+        "url": "http://fmod.fmtricks.com",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Jason P. Scharf",
+                "email": "",
+                "url": "https://github.com/jpscharf"
+            }
+        ]
     }
 ]
