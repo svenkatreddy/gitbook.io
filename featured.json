@@ -162,5 +162,19 @@
                 "url": "https://github.com/Coalman"
             }
         ]
+    },
+    {
+        "id": "erlerobot/erle_gitbook",
+        "title": "Erle Robot, the educational drone",
+        "description": "Discover the first educational drone.",
+        "url": "http://erlerobot.github.io/erle_gitbook/",
+        "langs": ["en", "es"],
+        "authors": [
+            {
+                "name": "Víctor Mayoral Vilches",
+                "email": "victor@erlerobot.com",
+                "url": "https://github.com/vmayoral"
+            }
+        ]
     }
 ]
