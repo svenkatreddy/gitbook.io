@@ -122,6 +122,20 @@
         ]
     },
     {
+        "id": "jpscharf/FileMakerServerOpenDirectory",
+        "title": "FileMaker + Open Directory",
+        "description": "Learn how to deploy Open Directory for FileMaker Server external authentication.",
+        "url": "http://fmod.fmtricks.com",
+        "langs": ["en"],
+        "authors": [
+            {
+                "name": "Jason P. Scharf",
+                "url": "https://github.com/jpscharf",
+                "avatar": "https://avatars0.githubusercontent.com/u/1039984?s=460"
+            }
+        ]
+    },
+    {
         "id": "runseb/runseb.github.io",
         "title": "Exobook",
         "description": "A book of exercises to learn CloudStack using exoscale.",
@@ -146,20 +160,6 @@
                 "name": "Michael Coleman",
                 "email": "teisei.coleman@gmail.com",
                 "url": "https://github.com/Coalman"
-            }
-        ]
-    },
-    {
-        "id": "jpscharf/FileMakerServerOpenDirectory",
-        "title": "FileMaker + Open Directory",
-        "description": "Learn how to deploy Open Directory for FileMaker Server external authentication.",
-        "url": "http://fmod.fmtricks.com",
-        "langs": ["en"],
-        "authors": [
-            {
-                "name": "Jason P. Scharf",
-                "email": "",
-                "url": "https://github.com/jpscharf"
             }
         ]
     }

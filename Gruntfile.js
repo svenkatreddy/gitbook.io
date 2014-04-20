@@ -7,8 +7,10 @@ var FEATURED = require("./featured.json");
 // Fill featured data
 FEATURED = _.map(FEATURED, function(book) {
     book.authors = _.map(book.authors || [], function(author) {
-        var h = crypto.createHash('md5').update(author.email).digest('hex');
-        author.avatar = "http://www.gravatar.com/avatar/"+h+".jpg";
+        if (!author.avatar) {
+            var h = crypto.createHash('md5').update(author.email).digest('hex');
+            author.avatar = "http://www.gravatar.com/avatar/"+h+".jpg";
+        }
         return author;
     })
     return book;
