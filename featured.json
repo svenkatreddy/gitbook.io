@@ -94,6 +94,35 @@
         ]
     },
     {
+        "id": "svenkatreddy/Ramayana_Book",
+        "title": "Ramayana Book",
+        "description": "Ramayana Book ( One of the two great epics of Hinduism ) ascribed by Valmiki",
+        "url": "http://svenkatreddy.github.io/Ramayana_Book/",
+        "langs": ["san","en","tel"],
+        "authors": [
+            {
+                "name": "Venkat Reddy",
+                "email": "svenkatreddy@outlook.com",
+                "url": "https://github.com/svenkatreddy"
+            },
+            {
+                "name": "Vasu Kumar",
+                "email": "reachvasu09@gmail.com",
+                "url": "https://github.com/vrforce"
+            },
+            {
+                "name": "Bharath Lagishetty",
+                "email": "Bharath.Lagishetty@gmail.com",
+                "url": "https://github.com/bharathlagishetty"
+            },
+            {
+                "name": "Naresh Goud",
+                "email": "naresh.rampally@gmail.com",
+                "url": "https://github.com/nareshgoud9"
+            }
+        ]
+    },
+    {
         "id": "TheThirdOne/BuildYourOwnLispGitbook",
         "title": "Build Your Own Lisp",
         "description": "Learn C and build your own programming language in under 1000 lines of code!",
